@@ -295,7 +295,7 @@ body {
   gap: 30px;
   justify-content: space-between;
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* Sections */
@@ -466,6 +466,7 @@ body {
 
 
 }                
+
 
 
 
