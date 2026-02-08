@@ -298,13 +298,13 @@ body {
   }
 
   .hero-content h1 {
-    font-size: 2.6rem;
+    font-size: 2.9rem;
     letter-spacing: 2px;
     margin-bottom: 10px;
   }
 
   .tagline {
-    font-size: 1.05rem;
+    font-size: 1.55rem;
   }
 
   .description {
@@ -363,6 +363,7 @@ body {
     margin: 0;
   }
 }                
+
 
 
 
