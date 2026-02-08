@@ -126,6 +126,63 @@ body {
   font-weight: 600;
 }
 
+.burger {
+  display: none;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+ /* 🔥 mobile view set up */
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+
+    background: rgba(10, 20, 39, 0.98);
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 15px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  }
+
+  /* 🔥 This is what JS activates */
+  .nav-links.active {
+    display: flex;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  /* Disable hover dropdown on mobile */
+  .dropdown:hover .dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  /* Make dropdown clickable instead */
+  .dropdown-menu {
+    position: static;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    background: transparent;
+    padding: 0;
+  }
+}
+
+
 
 /* ================= HERO ================= */
 
@@ -256,4 +313,5 @@ body {
     transform-origin: center;
   }
 }
+
 
