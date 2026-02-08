@@ -353,12 +353,6 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    gap: 20px;
-  }
-}
 
 
 
@@ -444,7 +438,35 @@ body {
     max-width: 100%;
     margin: 0;
   }
+
+ .footer-container {
+    flex-direction: column;    /* Stack everything vertically */
+    align-items: center;       /* Center all items */
+    gap: 12px;                 /* Reduce spacing for small screens */
+  }
+
+  .footer-brand h2 {
+    font-size: 20px;           /* Slightly smaller logo/title */
+  }
+
+  .footer-brand p {
+    font-size: 12px;           /* Smaller tagline */
+  }
+
+  .footer-link {
+    display: block;            /* Each link on its own line */
+    margin: 6px 0;             /* Vertical spacing for tappable links */
+    font-size: 16px;           /* Larger font for touch devices */
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+    padding-top: 8px;
+  }
+
+
 }                
+
 
 
 
