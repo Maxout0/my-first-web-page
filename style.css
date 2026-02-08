@@ -328,14 +328,14 @@ body {
 }
 
 
-     hero {
+     .hero {
     position: relative;
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
   }
 
-  .hero-overlay {
+  body {
     position: absolute;
     inset: 0;
     background: linear-gradient(
@@ -363,6 +363,7 @@ body {
     margin: 0;
   }
 }                
+
 
 
 
