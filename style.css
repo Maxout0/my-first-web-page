@@ -188,8 +188,8 @@ body {
   inset: 0;
   background: linear-gradient(
     to right,
-    rgba(0, 0, 30, 0.8),
-    rgba(0, 0, 50, 0.55)
+    rgba(100, 10, 30, 0.8),
+    rgba(0, 100, 50, 0.55)
   );
   z-index: 1;
 }
@@ -328,6 +328,7 @@ body {
 }
   
                      
+
 
 
 
