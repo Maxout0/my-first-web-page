@@ -442,7 +442,7 @@ body {
  .footer-container {
     flex-direction: column;    /* Stack everything vertically */
     align-items: center;       /* Center all items */
-    gap: 12px;                 /* Reduce spacing for small screens */
+    gap: 7px;                 /* Reduce spacing for small screens */
   }
 
   .footer-brand h2 {
@@ -466,6 +466,7 @@ body {
 
 
 }                
+
 
 
 
