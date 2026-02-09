@@ -341,7 +341,11 @@ body {
   flex-direction: column;
   margin-right: 12px;
   font-weight: bold;
-  gap: 10px;
+  gap: 12px;
+}
+
+.footer-link i {
+  margin-right: 6px;   /* controls space between icon and text */
 }
 
 /* Bottom bar */
@@ -468,6 +472,7 @@ body {
 
 
 }                
+
 
 
 
