@@ -337,7 +337,8 @@ body {
 
 /* Social Icons */
 .footer-social .social-icons a {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin-right: 12px;
   font-weight: bold;
 }
@@ -466,6 +467,7 @@ body {
 
 
 }                
+
 
 
 
