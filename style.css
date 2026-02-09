@@ -81,6 +81,7 @@ body {
   background: #444; /* placeholder */
   border-radius: 50%;
   overflow: hidden;
+  margin-left: -6px;
 }
 
 .logo-icon img {
@@ -472,6 +473,7 @@ body {
 
 
 }                
+
 
 
 
