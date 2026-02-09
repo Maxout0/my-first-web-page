@@ -341,6 +341,7 @@ body {
   flex-direction: column;
   margin-right: 12px;
   font-weight: bold;
+  gap:8px;
 }
 
 /* Bottom bar */
@@ -467,6 +468,7 @@ body {
 
 
 }                
+
 
 
 
