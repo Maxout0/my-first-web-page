@@ -4,3 +4,24 @@
   burger.addEventListener('click', () => {
     nav.classList.toggle('active');
   });
+
+if (window.innerWidth <= 768){
+  const nav =  document.querySelector(".nav-links");
+  const dropDown = document.querySelector(".dropdwon");
+  const aboutLink = dropDown?.querySelector('a[href*="about"]');
+  const contactlink = dropDown?.querySelector(".dropdown-menu a");
+
+  if (nav && dropDown && aboutLink && contactLink) {
+    const newAboutlink = aboutLink.cloneNode(true);
+    const newContactlink = contactLink.cloneNode(true);
+
+    dropDown.remove();
+
+    nav.insertBefore(newAboutlink, nav.children[0]);
+    nav.insertBefore(newContactlink, nav.children[1]);
+  }
+  
+  
+
+  
+}
